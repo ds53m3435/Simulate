@@ -1,0 +1,69 @@
+﻿<Window x:Class="simulation_project2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:simulation_project2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="825" Width="1305.6" WindowStyle="ThreeDBorderWindow" Background="#FF4F4E4E" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,-0.4,0.2">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="47*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="462*"/>
+            <ColumnDefinition Width="85*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="800" Margin="3,1,0,-4.8" VerticalAlignment="Top" Width="1100" Grid.RowSpan="2" Grid.ColumnSpan="2" Source="image/background_sim.png"/>
+        <Canvas HorizontalAlignment="Left" Height="1000" Margin="0,3,-135,-11.8" VerticalAlignment="Top" Width="2000" Grid.RowSpan="2" Grid.ColumnSpan="2">
+            <Image x:Name="man" Height="100" Canvas.Left="136" Canvas.Top="419" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="1" ScaleX="-1"/>
+                        <SkewTransform AngleY="0" AngleX="0"/>
+                        <RotateTransform Angle="0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="man2" Height="100" Canvas.Left="299" Canvas.Top="499" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man3" Height="100" Canvas.Left="376" Canvas.Top="397" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man4" Height="100" Canvas.Left="504" Canvas.Top="454" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man5" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man6" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man7" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man8" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man9" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man10" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man11" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man12" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man13" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man14" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man15" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man16" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man17" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man18" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man19" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man20" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man21" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man22" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man23" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man24" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man25" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man26" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man27" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man28" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man29" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+            <Image x:Name="man30" Height="100" Canvas.Left="504" Canvas.Top="454.4" Width="100" Source="image/man.png" RenderTransformOrigin="0.5,0.5"/>
+        </Canvas>
+        <Button x:Name="first_top" Content="1st floor (Top Market)" Grid.Column="1" HorizontalAlignment="Left" Margin="39.4,4.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="130" Height="30"/>
+        <Button x:Name="first_kid" Content="1st floor (Kidzoona)" Grid.Column="1" HorizontalAlignment="Left" Margin="40.4,59.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="130" Height="30"/>
+        <Button x:Name="second" Content="2nd floor" Grid.Column="1" HorizontalAlignment="Left" Margin="40.4,118.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="130" Height="30"/>
+        <Button x:Name="third" Content="3rd floor" Grid.Column="1" HorizontalAlignment="Left" Margin="42.4,176.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="130" Height="30"/>
+        <Button x:Name="fourth" Content="4th floor" Grid.Column="1" HorizontalAlignment="Left" Margin="42.4,238.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="130" Height="30"/>
+        <Button x:Name="start_btn" Content="Start" Grid.Column="1" HorizontalAlignment="Left" Margin="41.4,546.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="130" Height="30" Click="start_sim"/>
+        <Button x:Name="button_Copy" Content="Stop" Grid.Column="1" HorizontalAlignment="Left" Margin="43.4,608.6,0,0" Grid.Row="1" VerticalAlignment="Top" Width="130" Height="30" Click="stop_sim"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+D:\visual studio project\simulation_project2\simulation_project2\bin\Debug\simulation_project2.exe.config
+D:\visual studio project\simulation_project2\simulation_project2\bin\Debug\simulation_project2.exe
+D:\visual studio project\simulation_project2\simulation_project2\bin\Debug\simulation_project2.pdb
+D:\visual studio project\simulation_project2\simulation_project2\obj\Debug\simulation_project2.csprojResolveAssemblyReference.cache
+D:\visual studio project\simulation_project2\simulation_project2\obj\Debug\MainWindow.g.cs
+D:\visual studio project\simulation_project2\simulation_project2\obj\Debug\App.g.cs
+D:\visual studio project\simulation_project2\simulation_project2\obj\Debug\simulation_project2_MarkupCompile.cache
+D:\visual studio project\simulation_project2\simulation_project2\obj\Debug\simulation_project2_MarkupCompile.lref
+D:\visual studio project\simulation_project2\simulation_project2\obj\Debug\MainWindow.baml
+D:\visual studio project\simulation_project2\simulation_project2\obj\Debug\simulation_project2.g.resources
+D:\visual studio project\simulation_project2\simulation_project2\obj\Debug\simulation_project2.Properties.Resources.resources
+D:\visual studio project\simulation_project2\simulation_project2\obj\Debug\simulation_project2.csproj.GenerateResource.Cache
+D:\visual studio project\simulation_project2\simulation_project2\obj\Debug\simulation_project2.csproj.CoreCompileInputs.cache
+D:\visual studio project\simulation_project2\simulation_project2\obj\Debug\simulation_project2.exe
+D:\visual studio project\simulation_project2\simulation_project2\obj\Debug\simulation_project2.pdb
